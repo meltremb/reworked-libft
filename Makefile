@@ -6,7 +6,7 @@
 #    By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 13:41:29 by meltremb          #+#    #+#              #
-#    Updated: 2023/02/20 11:18:01 by meltremb         ###   ########.fr        #
+#    Updated: 2023/02/22 11:33:34 by meltremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,8 +72,8 @@ OBJS = $(SRCS:.c=.o)
 BONUS_OBJS = $(BONUS:.c=.o)
 
 $(NAME):
-		$(CC) $(CFLAGS) $(SRCS)
-		$(AR) $(NAME) $(OBJS)
+		$(CC) $(CFLAGS) $(HIDE)$(SRCS)
+		$(AR) $(NAME) $(HIDE)$(OBJS)
 
 all: $(NAME)
 
