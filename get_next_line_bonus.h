@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 14:28:08 by meltremb          #+#    #+#             */
-/*   Updated: 2023/02/20 15:03:35 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/02 08:59:37 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <unistd.h>
 # include <limits.h>
 # include"../reworked-libft/libft.h"
-# include"../include/so_long.h"
 
 char	*get_next_line(int fd);
 char	*ft_line_join(char *doc_str, char *bufferlen);

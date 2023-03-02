@@ -6,11 +6,18 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 14:39:25 by meltremb          #+#    #+#             */
-/*   Updated: 2023/02/20 13:06:59 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/02 10:15:41 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"get_next_line_bonus.h"
+
+void	*free_and_null(void *ptr)
+{
+	if (ptr)
+		free(ptr);
+	return (NULL);
+}
 
 /* deletes the first line of the document to get the next one after */
 char	*ft_line_join(char *doc_str, char *bufferlen)
