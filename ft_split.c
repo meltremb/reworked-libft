@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 21:39:25 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/07 15:42:23 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:49:57 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,10 @@ char	**ft_split(char const *s, char c)
 
 	if (!s)
 		return (0);
-	ret = NULL;
 	i = 0;
+	ret = malloc(sizeof(char *) * (ft_len(s, c) + 1));
+	if (!ret)
+		return (0);
 	while (*s)
 	{
 		if (*s != c)

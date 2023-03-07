@@ -3,16 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: meltremb <meltremb@student.42quebec>       +#+  +:+       +#+        */
+/*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 18:12:49 by meltremb          #+#    #+#             */
-/*   Updated: 2022/04/05 13:35:36 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:50:47 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/* I wish i understood anything of how malloc works. would really be useful.
- * Anyway that one seems to work somehow. make a string, allocate space equal
- * to that gibberish and fill it with the given string. also set it to zero
- * to make the moulinette happy. */
 
 #include"libft.h"
 

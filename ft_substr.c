@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: meltremb <meltremb@student.42quebec>       +#+  +:+       +#+        */
+/*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 18:37:37 by meltremb          #+#    #+#             */
-/*   Updated: 2022/04/05 14:34:27 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:50:23 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 /* Back in my days, my grandma would like to make us substrings for lunches.
  * I remember we would go "grandma, grandma! pls make us substrings for lunches!
  *  uwu~ >w<" anyway now i have a leg cut off. Here's the recipe for a substring
