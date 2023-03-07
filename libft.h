@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 13:04:50 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/07 15:29:20 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:56:49 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ int		printx(char c, unsigned int nb);
 int		upper_string(int nb);
 int		canprintpls_uwu(char c);
 void	ft_exit(char *message);
-void	ft_free_null(void *ptr);
-void	ft_free_array(void	**array);
+void	ft_free_null(void **ptr);
+void	ft_free_array(void	***array);
 
 #endif
