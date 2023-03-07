@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 15:24:17 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/07 16:08:40 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 16:15:12 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ void	ft_free_array(void	***array)
 	{
 		i = -1;
 		while (*array[++i])
-			ft_free_null(&((*array)[i]));
-		ft_free_null((void **) array);
+			free(*array[i]);
+		free(*array);
+		*array = NULL;
 	}
 }
