@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 15:24:17 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/07 15:59:20 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 16:03:55 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 
 void	ft_free_null(void **ptr)
 {
-	if (ptr)
-		free(*ptr);
+	free(*ptr);
 	*ptr = NULL;
 }
 
