@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 13:04:50 by meltremb          #+#    #+#             */
-/*   Updated: 2023/02/20 12:40:04 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/07 14:35:51 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,5 +78,6 @@ int		printu(unsigned int nb);
 int		printx(char c, unsigned int nb);
 int		upper_string(int nb);
 int		canprintpls_uwu(char c);
+void	ft_exit(char *message);
 
 #endif

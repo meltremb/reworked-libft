@@ -6,7 +6,7 @@
 #    By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 13:41:29 by meltremb          #+#    #+#              #
-#    Updated: 2023/02/22 11:33:34 by meltremb         ###   ########.fr        #
+#    Updated: 2023/03/07 14:36:07 by meltremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -63,6 +63,7 @@ SRCS = ft_isalpha.c \
 	   printf_utils.c \
 	   get_next_line_bonus.c \
 	   get_next_line_utils_bonus.c \
+	   ft_exit.c \
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -c
