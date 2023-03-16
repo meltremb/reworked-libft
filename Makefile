@@ -6,7 +6,7 @@
 #    By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 13:41:29 by meltremb          #+#    #+#              #
-#    Updated: 2023/03/07 15:30:18 by meltremb         ###   ########.fr        #
+#    Updated: 2023/03/16 11:51:08 by meltremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,24 +71,19 @@ CFLAGS = -Wall -Wextra -Werror -c
 AR = ar rc
 RM = rm -f
 OBJS = $(SRCS:.c=.o)
-BONUS_OBJS = $(BONUS:.c=.o)
 
 $(NAME):
-		$(CC) $(CFLAGS) $(HIDE)$(SRCS)
-		$(AR) $(NAME) $(HIDE)$(OBJS)
+		-@ $(CC) $(CFLAGS) $(HIDE)$(SRCS)
+		-@ $(AR) $(NAME) $(HIDE)$(OBJS)
 
 all: $(NAME)
 
 clean:
-		$(RM) $(OBJS)
-		$(RM) $(BONUS_OBJS)
+		-@ $(RM) $(OBJS)
 
 fclean: clean
-		$(RM) $(NAME)
+		-@ $(RM) $(NAME)
 
 re:	fclean all
-
-bonus: $(OBJS) $(BONUS_OBJS)
-		$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
 
 .PHONY: all clean fclean re bonus
