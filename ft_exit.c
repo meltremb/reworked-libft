@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 14:33:36 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/16 11:05:11 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/16 11:09:01 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ void	ft_exit(char *message)
 			write(2, &message[i], 1);
 		write(2, "\n", 1);
 	}
+	close(0);
+	close(1);
 	close(2);
 	exit(1);
 }
