@@ -1,21 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_str_isdigit.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/28 12:51:33 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/29 10:49:00 by meltremb         ###   ########.fr       */
+/*   Created: 2023/03/29 10:59:59 by meltremb          #+#    #+#             */
+/*   Updated: 2023/03/29 14:31:08 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-int	ft_isdigit(int c)
+int	ft_str_isdigit(char *str)
 {
-	if (c >= '0' && c <= '9')
-		return (c);
-	else
-		return (0);
+	while (*str)
+	{
+		if ((*str >= '0' && *str <= '9') || *str == '-')
+			str++;
+		else
+			return (0);
+	}
+	return (1);
 }

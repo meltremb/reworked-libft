@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 13:04:50 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/07 15:56:49 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/03/29 11:03:21 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int		ft_isdigit(int a);
 int		ft_isalnum(int a);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_str_isdigit(char *str);
 size_t	ft_strlen(const char *s);
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);

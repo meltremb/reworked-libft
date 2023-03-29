@@ -6,7 +6,7 @@
 #    By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 13:41:29 by meltremb          #+#    #+#              #
-#    Updated: 2023/03/16 11:51:08 by meltremb         ###   ########.fr        #
+#    Updated: 2023/03/29 11:03:46 by meltremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ SRCS = ft_isalpha.c \
 	   ft_isalnum.c \
 	   ft_isascii.c \
 	   ft_isprint.c \
+	   ft_str_isdigit.c \
 	   ft_strlen.c \
 	   ft_memset.c \
 	   ft_bzero.c \
