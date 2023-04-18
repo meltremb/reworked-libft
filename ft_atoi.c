@@ -6,16 +6,13 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 16:28:00 by meltremb          #+#    #+#             */
-/*   Updated: 2023/04/05 14:54:16 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/04/18 16:26:48 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- * char--->int and the rules that look useless are for under min int and over
- * long max. You don't need them but i'm stupid. */
-
 #include"libft.h"
 
-long	ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	long	nb;
 	long	i;
