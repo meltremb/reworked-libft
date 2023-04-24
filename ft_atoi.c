@@ -6,13 +6,13 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 16:28:00 by meltremb          #+#    #+#             */
-/*   Updated: 2023/04/18 16:26:48 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/04/24 09:56:23 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
 	long	nb;
 	long	i;
@@ -31,10 +31,6 @@ int	ft_atoi(const char *str)
 		nb = nb * 10;
 		nb = nb + (str[i] - 48);
 		i++;
-		if (nb < 0)
-			return (0);
-		if ((sign * nb) > 2147483647)
-			return (-1);
 	}
 	return (sign * nb);
 }
