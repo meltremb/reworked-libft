@@ -6,15 +6,13 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 14:28:08 by meltremb          #+#    #+#             */
-/*   Updated: 2023/03/02 08:59:37 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/04/27 10:10:50 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
-# include <stdlib.h>
-# include <unistd.h>
 # include <limits.h>
 # include"../reworked-libft/libft.h"
 
