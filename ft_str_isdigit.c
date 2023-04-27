@@ -6,7 +6,7 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 10:59:59 by meltremb          #+#    #+#             */
-/*   Updated: 2023/04/27 10:55:52 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/04/27 12:22:07 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,15 @@
 
 int	ft_str_isdigit(char *str)
 {
-	while (*str)
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if ((*str >= '0' && *str <= '9') || str[0] == '-')
-			str++;
+		if (i > 0 && str[i] == '-')
+			return (0);
+		else if ((str[i] >= '0' && str[i] <= '9') || str[0] == '-')
+			i++;
 		else
 			return (0);
 	}
