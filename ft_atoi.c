@@ -6,17 +6,17 @@
 /*   By: meltremb <meltremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 16:28:00 by meltremb          #+#    #+#             */
-/*   Updated: 2023/04/24 10:10:13 by meltremb         ###   ########.fr       */
+/*   Updated: 2023/04/27 10:15:32 by meltremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-long	ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	long	nb;
-	long	i;
-	long	sign;
+	int	nb;
+	int	i;
+	int	sign;
 
 	sign = 1;
 	i = 0;
